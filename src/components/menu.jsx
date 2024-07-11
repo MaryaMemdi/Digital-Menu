@@ -1,4 +1,5 @@
-import { pizzaData } from "../../public/data";
+import Pizza from "./pizza";
+
 const Menu = () => {
   return (
     <div className="menu">
@@ -7,6 +8,7 @@ const Menu = () => {
         Authentic Italian cuisine. 6 creative dishes to choose from. All from
         our stone oven, all organic, all delicious.
       </p>
+      <Pizza />
     </div>
   );
 };
